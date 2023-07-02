@@ -1,0 +1,34 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding: 10px 15px;
+  z-index: 99;
+  transition: all ease-in 200ms;
+}
+.navbar__logo {
+  object-fit: contain;
+  width: 30px;
+  height: 30px;
+  width: 100%;
+  cursor: pointer;
+}
+.navbar__avatar {
+  object-fit: contain;
+  width: 30px;
+  height: 30px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.navbar__dark {
+  background-color: #111;
+}
+
+@media (max-width: 600px) {
+  .navbar__logo {
+  }
+}

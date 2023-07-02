@@ -1,0 +1,29 @@
+.plansScreen__plan {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.plansScreen__plan:hover {
+  opacity: 1;
+}
+.plansScreen__info > h5 {
+  font-weight: 400;
+}
+.plansScreen__plan > button {
+  font-size: 0.85rem;
+}
+
+.plansScreen__current {
+  background-color: gray !important;
+}
+
+.plansScreen__renewal {
+  font-size: 0.85rem;
+  color: #fff;
+  opacity: 0.8;
+  margin-left: 10px;
+  margin-top: 0;
+}
