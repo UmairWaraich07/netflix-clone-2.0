@@ -63,6 +63,7 @@
 @media (max-width: 500px) {
   .profileScreen__body {
     max-width: 350px;
+    padding: 10px 0;
   }
   .profileScreen__info {
     gap: 10px;

@@ -2,6 +2,7 @@
   width: 100%;
   height: 448px;
   object-fit: contain;
+  background-color: #111;
 }
 .banner__content {
   display: flex;
